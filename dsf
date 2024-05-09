@@ -1,0 +1,4 @@
+@SpringBootApplication
+@EnableScheduling
+@EnableTransactionManagement
+@MapperScan(basePackages = {"com.lp.*.mapper"})
