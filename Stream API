@@ -1,0 +1,3 @@
+Optional<String> optional = Optional.of("Hello, world!");
+int length = optional.map(s -> s.length()).orElse(0);
+System.out.println("Length: " + length);
