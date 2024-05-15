@@ -1,0 +1,7 @@
+				if ((P->y - p_AP->y) < ah && (P->y - p_AP->y) >= 0 && (P->x - p_AP->x) < aw -3 && (P->x - p_AP->x) >= -7)
+				{
+					P->y = APStart -100;
+					P = P->pnext;
+					p_AP->y = APStart;
+					kill++;
+ 
