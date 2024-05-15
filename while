@@ -1,0 +1,8 @@
+		NODE* P = p_bullet->pnext;
+ 
+ 
+		while (P != NULL)
+		{
+			if (boss1show == 0)
+			{
+ 
